@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GameYap - Your Ultimate Gaming News Hub">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>">
+    <title>GameYap - Your Ultimate Gaming News Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo-section">
+                <h1>GameYap</h1>
+                <p>Your Ultimate Gaming News Hub</p>
+            </div>
+            <div class="search-container">
+                <input type="text" id="search-bar" placeholder="Search for games, news...">
+                <button id="search-btn">🔍</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="news-section">
+            <h2>Latest Gaming News</h2>
+            <div class="layout-container">
+                <div class="sidebar">
+                    <div class="results-counter" id="results-counter">Showing <span id="results-count">4</span> of 4 articles</div>
+                    <div class="filter-chips">
+                        <span class="filter-chip active" data-category="all">🎮 All</span>
+                        <span class="filter-chip" data-category="console">🖥️ Console</span>
+                        <span class="filter-chip" data-category="rpg">⚔️ RPG</span>
+                        <span class="filter-chip" data-category="fps">🔫 FPS</span>
+                        <span class="filter-chip" data-category="rumors">👀 Rumors</span>
+                    </div>
+                </div>
+                <div class="content-area">
+                    <article class="news-article hero-article" data-category="console">
+                <img src="./image/1a16c-17708328079065-1920.png" alt="PlayStation 5 Pro Rumors" class="news-image" loading="lazy">
+                <span class="category-badge">Console</span>
+                <h3>PlayStation 5 Pro Rumors Heat Up</h3>
+                <p class="subtitle"><strong>Exclusive Insights from Industry Sources</strong></p>
+                <p>Sony is reportedly working on a more powerful PS5 variant. Insiders suggest it could feature ray tracing enhancements and higher frame rates for next-gen gaming. The new console might include improved cooling systems and support for 8K resolution. Rumors indicate a potential release in late 2024 or early 2025, with pricing starting around $599.</p>
+                <span class="date">October 15, 2023</span>
+                <a href="#" class="read-more">Read More →</a>
+            </article>
+            </article>
+            <div class="articles-grid">
+            <article class="news-article" data-category="rpg">
+                <img src="./image/elden-ring-new-header.png" alt="Elden Ring DLC" class="news-image" loading="lazy">
+                <span class="category-badge">RPG</span>
+                <h3>Elden Ring DLC Announced</h3>
+                <p class="subtitle"><strong>Shadow of the Erdtree Expansion Details Revealed</strong></p>
+                <p>FromSoftware confirms a new expansion for Elden Ring, set to release in 2024. Fans are excited for more challenging content in the Lands Between.</p>
+                <span class="date">October 12, 2023</span>
+                <a href="#" class="read-more">Read More →</a>
+            </article>
+            <article class="news-article" data-category="fps">
+                <img src="./image/Screenshot-2026-02-09-151217.png" alt="Call of Duty Modern Warfare III" class="news-image" loading="lazy">
+                <span class="category-badge">FPS</span>
+                <h3>Call of Duty: Modern Warfare III Breaks Records</h3>
+                <p class="subtitle"><strong>Record-Breaking Launch Success</strong></p>
+                <p>Activision's latest shooter has shattered launch records, with over 100 million players in the first week. The game's multiplayer mode is praised for its fast-paced action. New maps and modes have been added, including a zombie survival experience. The campaign offers a gripping storyline with improved graphics and AI companions.</p>
+                <span class="date">October 10, 2023</span>
+                <a href="#" class="read-more">Read More →</a>
+            </article>
+            <article class="news-article" data-category="console">
+                <img src="./image/nintendo-direct-illu-03-1200x675.png" alt="Nintendo Switch 2" class="news-image" loading="lazy">
+                <span class="category-badge">Console</span>
+                <h3>Nintendo Switch 2 Teased</h3>
+                <p class="subtitle"><strong>Next-Gen Console Rumors Confirmed</strong></p>
+                <p>Nintendo hints at a successor to the Switch, promising backward compatibility and improved graphics. Release details are expected later this year. The new console may feature a larger screen, better battery life, and support for cloud gaming. Rumors suggest it could be called the Switch 2 or Switch OLED Pro.</p>
+                <span class="date">October 8, 2023</span>
+                <a href="#" class="read-more">Read More →</a>
+            </article>
+            </div>
+
+            <article class="news-article" data-category="fps">
+                <img src="./image/Screenshot-2026-02-09-151217.png" alt="Call of Duty Modern Warfare III" class="news-image" loading="lazy">
+                <span class="category-badge">FPS</span>
+                <h3>Call of Duty: Modern Warfare III Breaks Records</h3>
+                <p class="subtitle"><strong>Record-Breaking Launch Success</strong></p>
+                <p>Activision's latest shooter has shattered launch records, with over 100 million players in the first week. The game's multiplayer mode is praised for its fast-paced action. New maps and modes have been added, including a zombie survival experience. The campaign offers a gripping storyline with improved graphics and AI companions.</p>
+                <span class="date">October 10, 2023</span>
+                <a href="#" class="read-more">Read More →</a>
+            </article>
+            <article class="news-article" data-category="console">
+                <img src="./image/nintendo-direct-illu-03-1200x675.png" alt="Nintendo Switch 2" class="news-image" loading="lazy">
+                <span class="category-badge">Console</span>
+                <h3>Nintendo Switch 2 Teased</h3>
+                <p class="subtitle"><strong>Next-Gen Console Rumors Confirmed</strong></p>
+                <p>Nintendo hints at a successor to the Switch, promising backward compatibility and improved graphics. Release details are expected later this year. The new console may feature a larger screen, better battery life, and support for cloud gaming. Rumors suggest it could be called the Switch 2 or Switch OLED Pro.</p>
+                <span class="date">October 8, 2023</span>
+                <a href="#" class="read-more">Read More →</a>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 GameYap. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
